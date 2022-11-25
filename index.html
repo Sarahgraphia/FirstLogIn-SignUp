@@ -1,0 +1,77 @@
+
+<html>
+
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+
+  <body>
+
+
+
+    <div class="container">
+
+
+      <div class="raw">
+
+
+        <div class="col-md-12">
+
+          <!------------------------- SIGN UP FORM--------------------- -->
+
+          <div class="w-75 m-auto form sign-up d-none text-center my-5 py-5">
+            <h2>Smart Sign-Up System</h2>
+
+
+            <input type="text" class="form-control w-75 " id="userName"
+              placeholder="Enter Your Name">
+            <input type="email" class="form-control w-75" id="userEmail"
+              placeholder="Enter Your Email">
+            <input type="password" class="form-control w-75" id="userPassword"
+              placeholder="Enter Your Passowrd">
+
+            <p class="red d-none" id="emptyAlert"> All inputs are required </p>
+            <p class="red d-none" id="emailExist"> Your Email already exists!
+            </p>
+            <p class="green d-none" id="filled"> Successfuly filled <i
+                class="fa-solid fa-check"></i> </p>
+            <button id="addUser" class="btn main-color my-3 px-3 w-75 ">Sign Up</button>
+            <p class="text-light">You have an account? <a class="logLink">Log in</a></p>
+          </div>
+
+        </div>
+
+        <!---------------------------- lOG IN FORM------------------------- -->
+        <div class="col-md-12">
+
+
+          <div class="w-75 m-auto form log-in text-center my-5 py-5">
+
+
+            <h2>Smart Login System</h2>
+
+
+            <input type="email" class="form-control w-75 " id="loginEmail"
+              placeholder="Enter Your Email">
+            <input type="password" class="form-control w-75" id="loginPassword"
+              placeholder="Enter Your Passowrd">
+            <p class="red d-none" id="logInCheck"> Email or Password isn't
+              correct! </p>
+            <button id="" class="btn main-color my-3 px-3 w-75">Login</button>
+            <p class="text-light">You don't have an account? <a
+                class="signLink">Sign Up</a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="JS/main.js"></script>
+  </body>
+
+</html>

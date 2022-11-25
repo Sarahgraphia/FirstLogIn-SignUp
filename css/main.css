@@ -1,0 +1,125 @@
+
+body {
+background-color: #24353F;
+
+}
+
+.main-color{
+
+
+    background-color:#24353F ;
+}
+
+.form{
+
+    background-color: #24353F;
+    box-shadow:0px 10px 40px -3px rgba(0, 0, 0);
+
+}
+
+.welcomeUser{
+
+background-color: #24353F;
+    box-shadow: 0px 10px 40px -3px rgba(0, 0, 0);
+
+}
+
+
+p a{
+
+text-decoration: none;
+color: white;
+cursor: pointer;
+}
+p a:hover{
+
+text-decoration: underline;
+color: white;
+
+
+}
+
+h2{
+
+
+    font-size: 40px;
+     font-weight: 400;
+    color: #17A2B8;
+}
+
+.form input { 
+margin: 20px auto !important;
+background-color: #24353F;
+color: white !important;
+
+}
+
+.red{
+
+color:red;
+
+}
+
+
+p{
+
+    margin-bottom: 0rem;
+}
+.form input:focus{
+
+background-color: #24353F;
+
+
+}
+::placeholder{
+
+color: rgba(255, 255, 255, 0.541) !important;
+
+}
+
+.green{
+
+color: rgb(31, 198, 31);
+
+}
+.form button{
+
+border:#17A2B8 1px solid;
+
+color: #17A2B8;
+}
+
+
+.form button:hover{
+
+
+background-color:#17A2B8 ;
+color: white;
+border: #17A2B8 1px solid;
+}
+
+#logOut{
+
+background-color: #62abd5;
+box-shadow: 0px 5px 10px  rgba(0, 0, 0);
+color:#24353F;
+padding: 8px  25px ;
+
+
+}
+
+#logOut:hover {
+
+    background-color: #22506b;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0);
+    color:  #62abd5;
+
+
+}
+
+.navbar-brand{
+
+cursor: pointer;
+text-shadow: 0px 8px 10px rgba(6, 6, 6, 0.812);
+
+}
